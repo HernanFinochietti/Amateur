@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    font-weight: 200;
+    text-decoration: solid;
+    line-height: 3em; 
+    font-size: 100px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div > img{
+    width: 500px;
+    height: 500px;
+}
+html{
+    background: url(caballofinal.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+div{
+    display: grid;
+    place-items: center;
+}
+.zoom {
+    transition: transform .2s; 
+}
+.zoom:hover {
+    transform: scale(1.3); 
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+    text-decoration: solid;
+    line-height: 3em; 
+    font-size: 25px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    backdrop-filter: blur(10px);
+}
+div > a{
+    text-align: center;
+    font-weight: 200;
+    color: purple;
+    font-size: 1px;
+    font-family: system-ui;
+    background-color:black;
+    border-radius: 50%;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    backdrop-filter: blur(10px);
+    color: purple;
+}
+.dark{
+    text-align:end;
+}
+.circular--square {
+    border-radius: 50%;
+}
